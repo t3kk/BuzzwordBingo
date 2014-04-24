@@ -4,14 +4,14 @@
 <body>
 	<h1>BINGO BODY!</h1>
 
-	{{ dict }}
+	{% setSize = len(dict) %}
 
 	<table border="1">
 
-		{% for x in range(0,math.sqrt(len(dict))) %}
+		{% for x in range(0,math.sqrt(setSize) %}
 			<tr>
-			{% for y in range(0,math.sqrt(len(dict))) %}
-				<td align="center" valign="middle">1</td>
+			{% for y in range(0,math.sqrt(setSize) %}
+				<td align="center" valign="middle">a</td>
 			{% endfor %}
 			</tr>
 		{% endfor %}
