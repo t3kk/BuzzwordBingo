@@ -4,17 +4,20 @@
 <body>
 	<h1>BI!GO BODY!</h1>
 
-
-	<table border="1">
-
-		{% for x in range(0, tableSize ) %}
-			<tr>
-			{% for y in range(0, tableSize ) %}
-				<td align="center" valign="middle">{{ bingoSet.pop() }}</td>
+	{% if len(bingoSet)%math.sqrt(len(bingoSet))=0 %}
+		<table border="1">
+			{% for x in range(0, tableSize ) %}
+				<tr>
+				{% for y in range(0, tableSize ) %}
+					{#Using pop here could be dangerous if the set is too small...#}
+					<td align="center" valign="middle">{{ bingoSet.pop() }}</td>
+				{% endfor %}
+				</tr>
 			{% endfor %}
-			</tr>
-		{% endfor %}
-	</table>
+		</table>
+	{% endif %}
+
+
 
 </body>
 {% endblock %}
