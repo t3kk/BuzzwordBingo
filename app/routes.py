@@ -10,7 +10,7 @@ def home():
    return render_template('index.html', bingoSet=getSetFromFile('data/dictionary.txt', setSize))
 
 @app.route('/clarify')
-def clarifyRender():
+def clarify():
 	return render_template('clarify.html')
 
 @app.route('/bandon')
