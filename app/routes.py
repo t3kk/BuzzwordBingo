@@ -5,7 +5,7 @@ from parseTextFile import getListFromFile
 
 @app.route('/')
 def home():
-   return render_template('index.html', dict=getListFromFile('../data/dictionary.txt'))
+   return render_template('index.html', dict=getListFromFile('data/dictionary.txt'))
 
 @app.route('/clarify')
 def clarifyRender():
