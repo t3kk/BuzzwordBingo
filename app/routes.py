@@ -8,8 +8,10 @@ def home():
 
 @app.route('/clarify')
 def clarify():
-	print clarify("words")
-
+	test = clarify("words")
+  print(test)
+  return test
+  
 @app.route('/bandon')
 def bandon():
 	return 'Bandon was here!'
