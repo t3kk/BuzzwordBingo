@@ -1,0 +1,13 @@
+BuzzWords
+-Internal Open Source
+-Cloud
+-Private Cloud
+-Hybrid Cloud
+-TTM
+-Synergy
+-Quality
+-Fragile
+-Sagile
+-Wagile
+-Teamwork
+-Productivity
