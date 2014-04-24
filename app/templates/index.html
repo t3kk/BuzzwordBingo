@@ -2,16 +2,19 @@
 {% block body %}
 
 <body>
-	<h1>BINGO BODY!</h1>
+	<h1>BI!GO BODY!</h1>
+
+
 	<table border="1">
+
 		{% for x in range(0, tableSize ) %}
 			<tr>
 			{% for y in range(0, tableSize ) %}
-
-				<td align="center" valign="middle">{{ bingoSet[0] }}</td>
+				<td align="center" valign="middle">{{ bingoSet.pop() }}</td>
 			{% endfor %}
 			</tr>
 		{% endfor %}
 	</table>
+
 </body>
 {% endblock %}
