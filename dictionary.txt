@@ -11,3 +11,4 @@ Sagile
 Wagile
 Teamwork
 Productivity
+Integrate
