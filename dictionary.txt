@@ -1,9 +1,9 @@
 BuzzWords
-Internal Open Source - It's like Open Source, but not...
-Cloud - Think of a fluffy white pillow where all your precious data is stored
-Private Cloud - If God wanted you to own a cloud he would have told you how to make them
-Hybrid Cloud - Better gas mileage than regular clouds, and you save the environment
-TTM - 
+Internal Open Source
+Cloud
+Private Cloud
+Hybrid Cloud
+TTM
 Synergy
 Quality
 Fragile
@@ -13,6 +13,10 @@ Teamwork
 Productivity
 Integrate
 Bonus
+BitCoin
+Milennial
+Gen X
+Digital Native
 Alignment
 At the end of the day
 Belt and Suspenders 
@@ -31,7 +35,7 @@ Face time
 Generation X
 Globalization
 Grow
-Headlights - to gain visibility into
+Headlights
 Holistic Approach
 Impact
 Leverage
@@ -127,7 +131,7 @@ Rightshoring
 Seamless (integration)
 Serum
 Share options
-Shoot (As in, "Shoot me an e-mail about that")
+Shoot an e-mail
 Social Currency
 Socialize
 Solution
@@ -136,7 +140,7 @@ Sustainability
 Storytelling
 Startup
 Strategry
-Tee off (begin something, i.e. a meeting or program)
+Tee off
 Touchpoint
 Value-added
 Visibility
@@ -148,10 +152,12 @@ Algorithm
 Benchmarking
 Back-end
 Beta
-Big data - larger data sets than last month
+Big data
+Bigger data
+Biggest data
 Bleeding edge
 Blog
-Bring your own Device - use of personal equipment (usually mobile) in a work environment
+Bring your own Device
 Bricks-and-clicks
 Clickthrough
 Cloud
@@ -221,4 +227,4 @@ Weblog
 Web services
 Wikiality
 Workflow
-
+Mesh Network
