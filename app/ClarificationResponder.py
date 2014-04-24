@@ -25,6 +25,3 @@ def clarify(clarification):
 def main():
   clarification = raw_input("Please Enter Your Clarification: ")
   clarify(clarification)
-
-#Call the main class
-main()
