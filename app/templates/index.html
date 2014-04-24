@@ -3,6 +3,11 @@
 <body>
 	<h1>BINGO BODY!</h1>
 
+	<p>
+		{% buzzwords = parseTextFile.getListFromFile('dictionary.txt') %}
+		{% print buzzwords %}
+	</p>
+	
 	<table border="1">
 		<tr>
 			<td>1</td>
