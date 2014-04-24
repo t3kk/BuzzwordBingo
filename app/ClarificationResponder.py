@@ -1,6 +1,4 @@
 from random import randint
-clarification = raw_input("Please Enter Your Clarification: ")
-x=randint(0,2)
 
 def syn():
         print "Synergy \n"
@@ -11,9 +9,22 @@ def acc():
 def rai():
         print "Raise a Defect \n"
 
-options = {0 : syn,
-		1 : acc,
-		2 : rai,
-}
+#Make a function to call so that we can use it elsewhere as well.
+def clarify(clarification):
+  x=randint(0,2)
 
-options[x]()
+  options = {
+       0: syn,
+   		1 : acc,
+	   	2 : rai,
+   }
+
+  options[x]()
+
+#defin the main class
+def main():
+  clarification = raw_input("Please Enter Your Clarification: ")
+  clarify(clarification)
+
+#Call the main class
+main()
