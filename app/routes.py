@@ -1,11 +1,11 @@
 from flask import render_template
 from app import app
 from ClarificationResponder import clarify
-from parseTextFile import getListFromFile
+from parseTextFile import getSetFromFile
 
 @app.route('/')
 def home():
-   return render_template('index.html', dict=getListFromFile('data/dictionary.txt'))
+   return render_template('index.html', dict=getSetFromFile('data/dictionary.txt', 25))
 
 @app.route('/clarify')
 def clarifyRender():
