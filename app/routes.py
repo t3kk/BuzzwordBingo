@@ -8,7 +8,7 @@ def home():
 
 @app.route('/clarify')
 def clarify():
-	return ClarificationResponder.clarify('test')
+	return clarify('test')
 
 @app.route('/bandon')
 def bandon():
