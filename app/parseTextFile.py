@@ -14,6 +14,6 @@ def getSetFromFile(file, size):
 	randSet = set()
 	if len(list) != 0:
 		while len(randSet) < size:
-			x=randint(0,len(list))
+			x=randint(0,len(list)-1)
 			randSet.add(list[x])
 	return randSet
