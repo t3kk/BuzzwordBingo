@@ -1,22 +1,25 @@
 {% extends "base.html" %}
 {% block body %}
-
 <body>
-	<h1>BI!GO BODY!</h1>
-	{#Add some safty#}
-	{% if ( bingoSet|length % (bingoSet|length**0.5) == 0) %}
-		{% set sideSize = (bingoSet|length**0.5)|int %}
-		<table class="table table-bordered table-responsive">
-			{% for x in range(0, sideSize ) %}
-				<tr>
-				{% for y in range(0, sideSize ) %}
-					<td align="center" valign="middle">{{ bingoSet.pop() }}</td>
-				{% endfor %}
-				</tr>
-			{% endfor %}
-		</table>
-	{% else %}
-		Error, set not a perfect square.
-	{% endif %}
+	<div class="container-fluid">
+		<div class="row">
+			<h1>BI!GO BODY!</h1>
+			{#Add some safty#}
+			{% if ( bingoSet|length % (bingoSet|length**0.5) == 0) %}
+				{% set sideSize = (bingoSet|length**0.5)|int %}
+				<table class="table table-bordered table-responsive">
+					{% for x in range(0, sideSize ) %}
+						<tr>
+						{% for y in range(0, sideSize ) %}
+							<td align="center" valign="middle">{{ bingoSet.pop() }}</td>
+						{% endfor %}
+						</tr>
+					{% endfor %}
+				</table>
+			{% else %}
+				Error, set not a perfect square.
+			{% endif %}
+		</div>
+	</div>
 </body>
 {% endblock %}
