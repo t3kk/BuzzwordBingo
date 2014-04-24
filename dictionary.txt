@@ -1,13 +1,13 @@
 BuzzWords
--Internal Open Source
--Cloud
--Private Cloud
--Hybrid Cloud
--TTM
--Synergy
--Quality
--Fragile
--Sagile
--Wagile
--Teamwork
--Productivity
+Internal Open Source - It's like Open Source, but not...
+Cloud - Think of a fluffy white pillow where all your precious data is stored
+Private Cloud - If God wanted you to own a cloud he would have told you how to make them
+Hybrid Cloud - Better gas mileage than regular clouds, and you save the environment
+TTM - 
+Synergy
+Quality
+Fragile
+Sagile
+Wagile
+Teamwork
+Productivity
