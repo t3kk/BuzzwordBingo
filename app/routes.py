@@ -7,7 +7,7 @@ def home():
 
 @app.route('/clarify')   
 def clarify():
-	return 'Testing'
+	return ClarificationResponder()
 	
 @app.route('/bandon')   
 def bandon():
