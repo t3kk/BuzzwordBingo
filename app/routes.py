@@ -8,7 +8,7 @@ def home():
 
 @app.route('/clarify')
 def clarifyRender():
-	return clarify('test')
+	return render_template('clarify.html')
 
 @app.route('/bandon')
 def bandon():
