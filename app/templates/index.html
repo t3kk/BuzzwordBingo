@@ -6,6 +6,7 @@
 
 	{% if ( bingoSet|length % (bingoSet|length**0.5) == 0) %}
 		{% set sideSize = (bingoSet|length**0.5) %}
+		{{sideSize}}
 		<table border="1">
 			{% for x in range(0, sideSize ) %}
 				<tr>
