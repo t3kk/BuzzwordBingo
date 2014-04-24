@@ -11,3 +11,214 @@ Sagile
 Wagile
 Teamwork
 Productivity
+Integrate
+Bonus
+Alignment
+At the end of the day
+Belt and Suspenders 
+Break through the clutter
+Bring to the table
+Buzzword
+Calibrate Expectations
+Clear goal
+Countless
+Disruptive innovation
+Diversity
+Empowerment
+Exit strategy
+Functional training
+Face time
+Generation X
+Globalization
+Grow
+Headlights - to gain visibility into
+Holistic Approach
+Impact
+Leverage
+Milestone
+Moving forward
+On the runway
+Organic growth
+Outside the box
+Paradigm
+Paradigm shift
+Proactive
+Push the envelope
+Reach out
+Relaying
+Robust
+Sea change (transformation)
+Sisterhood
+Spin-up
+Streamline
+Survival strategy
+Sustainability
+Synergy
+Touch base
+Wellness
+Win-win
+Education
+Accountable talk
+Higher-order thinking
+Invested in
+Run like a business
+Student engagement
+Business, sales and marketing
+Analytics
+Ballpark figure
+Bandwidth
+Business-to-Business
+Business-to-Consumer
+Best of Breed
+Best practices
+Bizmeth
+Boil the frog
+Boil the ocean
+Brand
+Brick-and-mortar
+Business process outsourcing
+Buzzword compliant
+Building Capabilities
+Client-centric
+Cloud Computing
+Close the loop
+Co-opetition
+Come-to-Jesus moment
+Content Marketing
+Core competency
+Customer-centric
+Deep dive
+Downsizing
+Crystallization
+Drinking the Kool-Aid
+Eating your own dogfood
+Enable
+Entitlement
+Enterprise
+Event horizon
+Eyeballs
+Free value
+Fulfilment issues
+Granular
+Guard rails
+Herding cats
+Holistic (approach/integration)
+Hyperlocal
+Integrated Marketing Solution
+Knowledge Process Outsourcing
+Leverage
+Logistics
+Long Tail
+Low Hanging Fruit
+Make it pop
+Mindshare
+Mission Critical
+Management Visibility
+New economy
+Next generation
+Offshoring
+Pain point
+Part of our DNA
+Peel back the onion
+Quick-win
+Return on Investment
+Reverse fulfilment
+Rightshoring
+Seamless (integration)
+Serum
+Share options
+Shoot (As in, "Shoot me an e-mail about that")
+Social Currency
+Socialize
+Solution
+SOX
+Sustainability
+Storytelling
+Startup
+Strategry
+Tee off (begin something, i.e. a meeting or program)
+Touchpoint
+Value-added
+Visibility
+Science and technology
+4G
+Aggregator
+Ajax
+Algorithm
+Benchmarking
+Back-end
+Beta
+Big data - larger data sets than last month
+Bleeding edge
+Blog
+Bring your own Device - use of personal equipment (usually mobile) in a work environment
+Bricks-and-clicks
+Clickthrough
+Cloud
+Collaboration
+Content management
+Content Management System
+Convergence
+Cross-platform
+Datafication
+Data mining
+Data science
+Deep dive
+Design pattern
+DevOps
+Digital divide
+Digital Remastering
+Digital Rights Management
+Digital signage
+Disruptive Technologies
+Document management
+Dot-bomb
+E-learning
+Engine
+Enterprise Content Management
+Enterprise Service Bus
+Framework
+Folksonomy
+Fuzzy logic
+HTML5
+Immersion
+Information superhighway / Information highway
+Innovation
+Mashup
+Mobile
+Modularity
+Nanotechnology
+Netiquette
+Next Generation
+Pandering
+PaaS
+Pizzazz
+Podcasting
+Portal
+Real-time
+Responsive
+Sensorization
+SaaS
+Scalability
+Skeuomorphic
+Social bookmarking
+Social software
+Spam
+Struts
+Sync-up
+Systems Development Life-Cycle
+Tagging
+Think outside the box
+Transmedia
+User generated content
+Viral
+Virtualization
+Vlogging
+Vortal
+Web 2.0
+Webinar
+Weblog
+Web services
+Wikiality
+Workflow
+
