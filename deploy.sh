@@ -1,4 +1,4 @@
 #!/bin/bash
-virtualenv pbEnv
-source pbEnv/bin/activate
+virtualenv pyEnv
+source pyEnv/bin/activate
 pip install -r requirements.txt
