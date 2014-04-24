@@ -3,7 +3,7 @@ from app import app
 from ClarificationResponder import clarify
 from parseTextFile import getSetFromFile
 
-tableSize
+tableSize = 5
 
 @app.route('/')
 def home():
