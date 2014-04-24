@@ -4,3 +4,7 @@ from app import app
 @app.route('/')
 def home():
    return render_template('index.html')
+
+@app.route('/clarify')   
+def clarify():
+	return 'Testing'
