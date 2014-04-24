@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 {% block body %}
-{% import parseTextFile as parse %}
+
 <body>
 	<h1>BINGO BODY!</h1>
 	
 	{% print 'Hi' %}
-	{% print parse.getListFromFile('data/dictionary.txt') %}
+	{{ dict }}
 	
 	<table border="1">
 		<tr>
