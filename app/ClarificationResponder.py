@@ -1,13 +1,13 @@
 from random import randint
 
 def syn():
-        print "Synergy \n"
+        return "Synergy \n"
 
 def acc():
-        print "Accept as Delivered \n"
+        return "Accept as Delivered \n"
 
 def rai():
-        print "Raise a Defect \n"
+        return "Raise a Defect \n"
 
 #Make a function to call so that we can use it elsewhere as well.
 def clarify(clarification):
@@ -24,4 +24,4 @@ def clarify(clarification):
 #defin the main class
 def main():
   clarification = raw_input("Please Enter Your Clarification: ")
-  clarify(clarification)
+  print clarify(clarification)
