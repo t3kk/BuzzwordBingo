@@ -19,7 +19,7 @@ def clarify(clarification):
 	   	2 : rai,
    }
 
-  options[x]()
+  return options[x]()
 
 #defin the main class
 def main():
