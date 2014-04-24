@@ -3,45 +3,18 @@
 
 <body>
 	<h1>BINGO BODY!</h1>
-	
+
 	{{ dict }}
-	
+
 	<table border="1">
-		<tr>
-			<td align="center" valign="middle">1</td>
-			<td align="center" valign="middle">2</td>
-			<td align="center" valign="middle">3</td>
-			<td align="center" valign="middle">4</td>
-			<td align="center" valign="middle">5</td>
-		</tr>
-		<tr>
-			<td align="center" valign="middle">6</td>
-			<td align="center" valign="middle">7</td>
-			<td align="center" valign="middle">8</td>
-			<td align="center" valign="middle">9</td>
-			<td align="center" valign="middle">10</td>
-		</tr>
-		<tr>
-			<td align="center" valign="middle">11</td>
-			<td align="center" valign="middle">12</td>
-			<td align="center" valign="middle">13</td>
-			<td align="center" valign="middle">14</td>
-			<td align="center" valign="middle">15</td>
-		</tr>
-		<tr>
-			<td align="center" valign="middle">16</td>
-			<td align="center" valign="middle">17</td>
-			<td align="center" valign="middle">18</td>
-			<td align="center" valign="middle">19</td>
-			<td align="center" valign="middle">20</td>
-		</tr>
-		<tr>
-			<td align="center" valign="middle">21</td>
-			<td align="center" valign="middle">22</td>
-			<td align="center" valign="middle">23</td>
-			<td align="center" valign="middle">24</td>
-			<td align="center" valign="middle">25</td>
-		</tr>
+
+		{% for x in range(0,math.sqrt(len(dict))) %}
+			<tr>
+			{% for y in range(0,math.sqrt(len(dict))) %}
+				<td align="center" valign="middle">1</td>
+			{% endfor %}
+			</tr>
+		{% endfor %}
 	</table>
 
 </body>
