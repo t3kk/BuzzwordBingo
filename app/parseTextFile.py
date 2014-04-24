@@ -1,4 +1,5 @@
 import os.path
+from random import randint
 
 def getListFromFile(file):
    if os.path.isfile(file):
