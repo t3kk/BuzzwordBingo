@@ -3,11 +3,11 @@ from app import app
 from ClarificationResponder import clarify
 from parseTextFile import getSetFromFile
 
-bingoSetSize = 25
+tableSize
 
 @app.route('/')
 def home():
-   return render_template('index.html', bingoSet=getSetFromFile('data/dictionary.txt', bingoSetSize), bingoSetSize=bingoSetSize)
+   return render_template('index.html', bingoSet=getSetFromFile('data/dictionary.txt', tableSize*tableSize), tableSize=tableSize)
 
 @app.route('/clarify')
 def clarifyRender():
