@@ -8,7 +8,7 @@ def home():
 
 @app.route('/clarify')
 def clarify():
-	return clarify("words")
+	print clarify("words")
 
 @app.route('/bandon')
 def bandon():
