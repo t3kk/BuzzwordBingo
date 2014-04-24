@@ -3,23 +3,20 @@
 
 <body>
 	<h1>BI!GO BODY!</h1>
-
-	{% if ( bingoSet|length % (bingoSet|length**0.5) == 0) %}
+	{#Add some safty#}
+	{% if false %}
 		{% set sideSize = (bingoSet|length**0.5)|int %}
 		<table border="1">
 			{% for x in range(0, sideSize ) %}
 				<tr>
 				{% for y in range(0, sideSize ) %}
-					{#Using pop here could be dangerous if the set is too small...#}
 					<td align="center" valign="middle">{{ bingoSet.pop() }}</td>
 				{% endfor %}
 				</tr>
 			{% endfor %}
 		</table>
-
+	{% else %}
+		Error, set not a perfect square.
 	{% endif %}
-
-
-
 </body>
 {% endblock %}
