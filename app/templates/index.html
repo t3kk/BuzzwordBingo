@@ -4,13 +4,12 @@
 <body>
 	<h1>BI!GO BODY!</h1>
 
-	{% setSize = len(dict) %}
 
 	<table border="1">
 
-		{% for x in range(0,math.sqrt(setSize) %}
+		{% for x in range(0,len(dict)) %}
 			<tr>
-			{% for y in range(0,math.sqrt(setSize) %}
+			{% for y in range(0,len(dict)) %}
 				<td align="center" valign="middle">a</td>
 			{% endfor %}
 			</tr>
