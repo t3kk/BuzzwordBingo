@@ -10,4 +10,7 @@ List of Buzzwords:
 synergy  
 cloud  
 internal open source  
+7 Engineering Principles
+Agile
+
 
