@@ -5,7 +5,7 @@ def getListFromFile(file, size):
    if os.path.isfile(file):
 		#return a list of lines
 		list = [line.strip() for line in open(file)]
-		if (len(list) != len(set(list)):
+		if (len(list) != len(set(list))):
 			getListFromFile(file, size)
 		list = insertBlank(list, size)
 		return list
