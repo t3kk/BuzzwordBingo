@@ -1,8 +1,6 @@
 from flask import render_template
 from app import app
 import parseTextFile
-#from parseTextFile import getSetFromFile
-#from parseTextFile import getListFromFile
 
 #nounWordList = getListFromFile()
 #verbWordList = getListFromFile()
