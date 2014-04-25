@@ -7,14 +7,13 @@ def getListFromFile(file, size):
 		list = [line.strip() for line in open(file)]
 		if (len(list) != len(set(list))):
 			getListFromFile(file, size)
-		list = insertBlank(list, size)
 		return list
    else:
       #return an empty list
       return list()
 
 def insertBlank(list):
-  #change the middle element to free space
+  #change the middle element to free spac
 	list[len(list)/2] = 'Free Space'
 	return list
 
