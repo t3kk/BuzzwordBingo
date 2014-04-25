@@ -4,7 +4,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<h1>BI!GO BODY!</h1>
-			{#Add some safty#}
+			{# Add some saftey #}
 			{% if ( bingoSet|length % (bingoSet|length**0.5) == 0) %}
 				{% set sideSize = (bingoSet|length**0.5)|int %}
 				<table class="table table-bordered table-responsive">
