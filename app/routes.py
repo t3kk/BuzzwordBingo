@@ -1,7 +1,7 @@
 from flask import render_template, flash, redirect
 from flask import request
 from app import app
-from parseTextFile
+import parseTextFile
 from ClarificationResponder import ClarificationForm
 
 #nounWordList = getListFromFile()
