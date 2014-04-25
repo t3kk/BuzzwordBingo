@@ -14,7 +14,7 @@ def getListFromFile(file, size):
       return list()
 	  
 def insertBlank(list, size)
-	index = int(size/2)
+	index = size/2
 	list[index] = ''
 	return list
 	
