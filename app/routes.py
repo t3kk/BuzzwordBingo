@@ -5,7 +5,7 @@ setSize = 25
 
 @app.route('/')
 def home():
-   return render_template('index.html', bingoSet=getSetFromFile('data/dictionary.txt', setSize))
+   return render_template('index.html', bingoSet=parseTextFile.getSetFromFile('data/dictionary.txt', setSize))
 
 @app.route('/clarify')
 def clarify():
