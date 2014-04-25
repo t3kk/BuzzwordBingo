@@ -1,3 +1,6 @@
+from flask_wtf import Form
+from wtforms import TextField
+from wtforms.validators import DataRequired
 from random import randint
 
 def syn():
@@ -25,3 +28,6 @@ def clarify(clarification):
 def main():
   clarification = raw_input("Please Enter Your Clarification: ")
   print clarify(clarification)
+
+class ClarificationForm(Form):
+	clarificationText = TextField('clarificationText', validators = [DataRequired()])
