@@ -11,7 +11,9 @@
 					{% for x in range(0, sideSize ) %}
 						<tr>
 						{% for y in range(0, sideSize ) %}
-							<td align="center" valign="middle">{{ bingoSet.pop() }}</td>
+							<td align="center" valign="middle">
+								<button>{{ bingoSet.pop() }}</button>
+							</td>
 						{% endfor %}
 						</tr>
 					{% endfor %}
