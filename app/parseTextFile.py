@@ -13,7 +13,7 @@ def getListFromFile(file, size):
       #return an empty list
       return list()
 	  
-def insertBlank(list, size)
+def insertBlank(list, size):
 	index = size/2
 	list[index] = ''
 	return list
