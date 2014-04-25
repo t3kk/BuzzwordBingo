@@ -12,15 +12,15 @@ def getListFromFile(file, size):
    else:
       #return an empty list
       return list()
-	  
-def insertBlank(list, size):
-	index = size/2
-	list[index] = ''
+
+def insertBlank(list):
+  #change the middle element to free space
+	list[len(list)/2] = 'Free Space'
 	return list
-	
+
 
 def getSetFromFile(file, size):
-	list = getListFromFile(file, size)	
+	list = getListFromFile(file, size)
 	randSet = set()
 	if len(list) != 0:
 		while len(randSet) < size:
