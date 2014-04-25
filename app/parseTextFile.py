@@ -10,7 +10,7 @@ def getListFromFile(file, size):
       #return an empty list
       return list()
 
-def insertBlank(list):
+def insertBlank(targetList):
   #change the middle element to free spac
 	targetList[len(targetList)/2] = 'Free Space'
 	return targetList
