@@ -5,8 +5,6 @@ def getListFromFile(file, size):
    if os.path.isfile(file):
 		#return a list of lines
 		list = [line.strip() for line in open(file)]
-		if (len(list) != len(set(list))):
-			getListFromFile(file, size)
 		return list
    else:
       #return an empty list
@@ -18,11 +16,11 @@ def insertBlank(list):
 	return list
 
 
-def getSetFromFile(file, size):
+def getSetListFromFile(file, size):
 	list = getListFromFile(file, size)
 	randSet = set()
 	if len(list) != 0:
 		while len(randSet) < size:
 			x=randint(0,len(list)-1)
 			randSet.add(list[x])
-	return randSet
+	return list(randSet)
