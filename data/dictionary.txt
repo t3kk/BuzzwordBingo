@@ -1,232 +1,191 @@
-BuzzWords
-Internal Open Source
-Cloud
-Private Cloud
-Hybrid Cloud
-ROI
-TTM
-Synergy
-Quality
-Fragile
-Sagile
-Wagile
-Teamwork
-Productivity
-Integrate
-Bonus
-BitCoin
-Milennial
-Gen X
-Digital Native
+Algorithm
 Alignment
-At the end of the day
-Belt and Suspenders 
-Break through the clutter
-Bring to the table
-Buzzword
-Calibrate Expectations
-Clear goal
-Countless
-Disruptive innovation
-Diversity
-Empowerment
-Exit strategy
-Functional training
-Face time
-Generation X
-Globalization
-Grow
-Headlights
-Holistic Approach
-Impact
-Leverage
-Milestone
-Moving forward
-On the runway
-Organic growth
-Outside the box
-Paradigm
-Paradigm shift
-Proactive
-Push the envelope
-Reach out
-Relaying
-Robust
-Sea change (transformation)
-Sisterhood
-Spin-up
-Streamline
-Survival strategy
-Sustainability
-Synergy
-Touch base
-Wellness
-Win-win
-Education
-Accountable talk
-Higher-order thinking
-Invested in
-Run like a business
-Student engagement
-Business, sales and marketing
 Analytics
+At the end of the day
+B2B
+Back-end
 Ballpark figure
 Bandwidth
-B to B
+Belt and Suspenders 
+Benchmarking
+Best Practices
+Beta
+Big data
+Bigger data
+Biggest data
+BitCoin
+Bleeding edge
+Bonus
+Brand
+Break through the clutter
+Brick-and-mortar
+Bring to the table
+Bring your own Device
+Building Capabilities
+Business Process Outsourcing
 Business-to-Business
 Business-to-Consumer
-Best of Breed
-Best practices
-Bizmeth
-Boil the frog
-Boil the ocean
-Brand
-Brick-and-mortar
-Business process outsourcing
-Buzzword compliant
-Building Capabilities
+Calibrate Expectations
+Clear Goal
+Clickthrough
 Client-centric
-Cloud Computing
 Close the loop
-Co-opetition
-Come-to-Jesus moment
+Cloud
+Cloud Computing
+Collaboration
+Content Management System
 Content Marketing
 Core competency
-Customer-centric
-Deep dive
-Downsizing
+Countless
+Cross-platform
 Crystallization
+Customer-centric
+Data mining
+Data science
+Datafication
+Deep dive
+Design pattern
+Digital Divide
+Digital Native
+Digital Remastering
+Digital Rights Management
+Digital Signage
+Disruptive Innovation
+Disruptive Technologies
+Diversity
+Document management
+Dot-bomb
+Downsizing
 Drinking the Kool-Aid
-Eating your own dogfood
+E-Learning
+Education
+Empowerment
 Enable
-Entitlement
+Engine
 Enterprise
+Enterprise Content Management
+Enterprise Service Bus
+Entitlement
 Event horizon
+Exit strategy
 Eyeballs
+Face time
+Folksonomy
+Fragile
+Framework
 Free value
 Fulfilment issues
+Functional training
+Fuzzy logic
+Generation X
+Globalization
 Granular
+Grow
 Guard rails
+Headlights
 Herding cats
-Holistic (approach/integration)
+Higher-order thinking
+Holistic Approach
+HTML5
+Hybrid Cloud
 Hyperlocal
+Immersion
+Impact
+Information highway
+Innovation
+Integrate
 Integrated Marketing Solution
+Internal Open Source
 Knowledge Process Outsourcing
 Leverage
 Logistics
 Long Tail
 Low Hanging Fruit
-Make it pop
+Management Visibility
+Mashup
+Mesh Network
+Milennial
+Milestone
 Mindshare
 Mission Critical
-Management Visibility
+Mobile
+Modularity
+Moving forward
+Nanotechnology
+Netiquette
 New economy
 Next generation
 Offshoring
+Organic growth
+Outside the Box
 Pain point
-Part of our DNA
-Peel back the onion
+Pandering
+Paradigm
+Podcasting
+Portal
+Private Cloud
+Proactive
+Productivity
+Push the envelope
+Quality
 Quick-win
+Reach out
+Real-time
+Relaying
+Responsive
 Return on Investment
 Reverse fulfilment
 Rightshoring
-Seamless (integration)
+Robust
+ROI
+Run like a business
+Scalability
+Science and technology
+Sensorization
 Serum
 Share options
-Shoot an e-mail
+Shoot an E-Mail
+Sisterhood
+Skeuomorphic
+Social Bookmarking
 Social Currency
+Social Software
 Socialize
 Solution
-SOX
-Sustainability
-Storytelling
-Startup
-Strategry
-Tee off
-Touchpoint
-Value-added
-Visibility
-Science and technology
-4G
-Aggregator
-Ajax
-Algorithm
-Benchmarking
-Back-end
-Beta
-Big data
-Bigger data
-Biggest data
-Bleeding edge
-Blog
-Bring your own Device
-Bricks-and-clicks
-Clickthrough
-Cloud
-Collaboration
-Content management
-Content Management System
-Convergence
-Cross-platform
-Datafication
-Data mining
-Data science
-Deep dive
-Design pattern
-DevOps
-Digital divide
-Digital Remastering
-Digital Rights Management
-Digital signage
-Disruptive Technologies
-Document management
-Dot-bomb
-E-learning
-Engine
-Enterprise Content Management
-Enterprise Service Bus
-Framework
-Folksonomy
-Fuzzy logic
-HTML5
-Immersion
-Information superhighway / Information highway
-Innovation
-Mashup
-Mobile
-Modularity
-Nanotechnology
-Netiquette
-Next Generation
-Pandering
-PaaS
-Pizzazz
-Podcasting
-Portal
-Real-time
-Responsive
-Sensorization
-SaaS
-Scalability
-Skeuomorphic
-Social bookmarking
-Social software
 Spam
+Spin-up
+Startup
+Storytelling
+Strategry
+Streamline
 Struts
+Student Engagement
+Survival Strategy
+Sustainability
 Sync-up
+Synergy
 Systems Development Life-Cycle
 Tagging
-Think outside the box
+Teamwork
+Tee off
+Think Outside the Box
+Touch base
+Touchpoint
 Transmedia
+TTM
 User generated content
+Value-added
 Viral
 Virtualization
+Visibility
 Vlogging
 Vortal
+Wagile
 Web 2.0
+Web services
 Webinar
 Weblog
-Web services
-Wikiality
+Wellness
+Wiki
+Win-win
 Workflow
-Mesh Network
