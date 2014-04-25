@@ -3,6 +3,7 @@ Internal Open Source
 Cloud
 Private Cloud
 Hybrid Cloud
+ROI
 TTM
 Synergy
 Quality
@@ -71,6 +72,7 @@ Business, sales and marketing
 Analytics
 Ballpark figure
 Bandwidth
+B to B
 Business-to-Business
 Business-to-Consumer
 Best of Breed
