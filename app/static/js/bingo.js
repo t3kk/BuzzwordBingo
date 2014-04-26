@@ -1,6 +1,6 @@
 /*Functions for the bingo game*/
 
-var CHECKED_COLOR = "red";
+var CHECKED_COLOR = "#6495ED";
 var UNCHECKED_COLOR = "white";
 
 function bingoCellClicked(clickedId)
