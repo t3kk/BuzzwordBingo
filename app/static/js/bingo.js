@@ -32,5 +32,6 @@ function extractCoordinates(clickedId)
     var re4='(\\d+)';	// Integer Number 2
     var p = new RegExp(re1+re2+re3+re4,["i"]);
     var m = p.exec(clickedId);
-    alert(m[0]+''+m[1]);
+    alert(m[0]);
+    alert(m[1]);
 }
