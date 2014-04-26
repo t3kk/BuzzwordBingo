@@ -1,5 +1,8 @@
 /*Functions for the bingo game*/
 
+const CHECKED_COLOR = "red";
+const UNCHECKED_COLOR = "white";
+
 function bingoCellClicked(clickedId)
 {
 	toggleColor(clickedId);
@@ -8,19 +11,20 @@ function bingoCellClicked(clickedId)
 
 function toggleColor(clickedId)
 {
-	if (document.getElementById(clickedId).style.backgroundColor!="red")
+	if (document.getElementById(clickedId).style.backgroundColor!=CHECKED_COLOR)
 	{
-		document.getElementById(clickedId).style.backgroundColor="red";
+		document.getElementById(clickedId).style.backgroundColor=CHECKED_COLOR;
 	}
 	else
 	{
-		document.getElementById(clickedId).style.backgroundColor="white";
+		document.getElementById(clickedId).style.backgroundColor=UNCHECKED_COLOR;
 	}
 }
 
 function checkForWin(clickedId)
 {
 	var coords = extractCoordinates(clickedId);
+
 	alert(coords.x+" "+coords.y);
 }
 
