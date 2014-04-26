@@ -24,8 +24,26 @@ function toggleColor(clickedId)
 function checkForWin(clickedId)
 {
 	var coords = extractCoordinates(clickedId);
+	//check the vertical here
+	if ( 1 + checkVector(coords.x, coords.y, 0, -1) + checkVector(coords.x, coords.y, 0, 1) == rowSize)
+	{
+		alert("Vertical Win!");
+	}
+}
 
-	alert(coords.x+" "+coords.y);
+function checkVector(xCoord, yCoord, xDelta, yDelta)
+{
+	var nextCellId = 'cell:'+(xCoord+xDelta)+','+(yCoord+yDelta);
+	//If the next element exists and it is checked, we need to check the one after that
+	if( document.getElementById(nextCellId) && document.getElementById(nextCellId).style.backgroundColor == CHECKED_COLOR)
+	{
+		return 1 + checkVector(xCoord+xDelta, yCoord+yDelta);
+	}
+	else
+	{
+		return 0;
+	}
+	
 }
 
 function extractCoordinates(clickedId)
