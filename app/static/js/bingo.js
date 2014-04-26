@@ -20,7 +20,8 @@ function toggleColor(clickedId)
 
 function checkForWin(clickedId)
 {
-	extractCoordinates(clickedId);
+	var coords = extractCoordinates(clickedId);
+	alert(coords.x+" "+coords.y);
 }
 
 function extractCoordinates(clickedId)
@@ -32,5 +33,5 @@ function extractCoordinates(clickedId)
     var re4='(\\d+)';	// Integer Number 2
     var p = new RegExp(re1+re2+re3+re4,["i"]);
     var m = p.exec(clickedId);
-    alert(m[1]+","+m[2]);
+    return {x:m[1], y:m[2]}
 }
