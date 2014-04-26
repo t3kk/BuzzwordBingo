@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 {% block body %}
 <body>
+	<!--TODO: Find a way to keep all imports near each other in generated html-->
+	<!--TODO: Reference static folder dynamically with url_for function-->
+	<script src="/static/js/bingo.js"></script>
 	<div class="container-fluid">
 		<div class="row">
 			<h1>B!NGO BODY!</h1>
@@ -12,8 +15,8 @@
 						<tr>
 						{% for x in range( 0, sideSize ) %}
                                                         {% set tdName = "cell{0}{1}".format(y,x) %}
-							<td align="center" valign="middle" name= {{ tdName }}>
-								<button style="width:100%" class="button">{{ bingoSet.pop() }}</button>
+							<td align="center" valign="middle" id= {{ tdName }} onClick="bingoCellClicked(this.id)">
+								{{ bingoSet.pop() }}
 							</td>
 						{% endfor %}
 						</tr>
