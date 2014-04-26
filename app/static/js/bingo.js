@@ -1,7 +1,8 @@
 /*Functions for the bingo game*/
 
-var CHECKED_COLOR = "#6495ED";  /* Can we get the icon in cornflower blue https://www.youtube.com/watch?v=746j4dN1sQg */
-var UNCHECKED_COLOR = "white";
+
+var CHECKED_COLOR = 'rgb(100, 149, 237)';  /* Using rgb value for cornflowerblue to fix comparison.  Can we get the icon in cornflower blue https://www.youtube.com/watch?v=746j4dN1sQg */
+var UNCHECKED_COLOR = 'white';
 
 function bingoCellClicked(clickedId)
 {
@@ -23,12 +24,7 @@ function toggleColor(clickedId)
 
 function checkForWin(clickedId)
 {
-	var coords = extractCoordinates(clickedId);
-	//check the vertical here
-	if ( 1 + checkVector(coords.x, coords.y, 0, -1) + checkVector(coords.x, coords.y, 0, 1) == rowSize)
-	{
-		alert("Vertical Win!");
-	}
+
 }
 
 function checkVector(xCoord, yCoord, xDelta, yDelta)
@@ -43,7 +39,7 @@ function checkVector(xCoord, yCoord, xDelta, yDelta)
 	{
 		return 0;
 	}
-	
+
 }
 
 function extractCoordinates(clickedId)
