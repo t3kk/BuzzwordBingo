@@ -1,3 +1,4 @@
+Agile
 Algorithm
 Alignment
 Analytics
@@ -97,6 +98,7 @@ Integrate
 Integrated Marketing Solution
 Internal Open Source
 Knowledge Process Outsourcing
+Knowledge Worker
 Leverage
 Logistics
 Long Tail
@@ -160,6 +162,7 @@ Strategy
 Streamline
 Struts
 Student Engagement
+Sunk Cost
 Survival Strategy
 Sustainability
 Sync-up
@@ -172,9 +175,10 @@ Think Outside the Box
 Touch base
 Touchpoint
 Transmedia
-TTM
+Time to Market (TTM)
 User generated content
 Value-added
+Venture Capital
 Viral
 Virtualization
 Visibility

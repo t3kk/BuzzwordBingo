@@ -8,12 +8,12 @@
 			{% if ( bingoSet|length % (bingoSet|length**0.5) == 0) %}
 				{% set sideSize = (bingoSet|length**0.5)|int %}
 				<table class="table table-bordered table-responsive">
-					{% for x in range(0, sideSize ) %}
+					{% for y in range(0, sideSize ) %}
 						<tr>
-						{% for y in range(0, sideSize )	%}
-							{% set tdName = "cell{0}{1}".format(x,y) %}
-							<td align="center" valign="middle" name={{ tdName }}>
-								<button>{{ bingoSet.pop() }}</button>
+						{% for x in range( 0, sideSize ) %}
+                                                        {% set tdName = "cell{0}{1}".format(y,x) %}
+							<td align="center" valign="middle" name= {{ tdName }}>
+								<button style="width:100%" class="button">{{ bingoSet.pop() }}</button>
 							</td>
 						{% endfor %}
 						</tr>
