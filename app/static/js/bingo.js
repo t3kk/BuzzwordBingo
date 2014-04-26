@@ -1,6 +1,6 @@
 /*Functions for the bingo game*/
 
-var CHECKED_COLOR = "#6495ED";
+var CHECKED_COLOR = "#6495ED";  /* Can we get the icon in cornflower blue https://www.youtube.com/watch?v=746j4dN1sQg */
 var UNCHECKED_COLOR = "white";
 
 function bingoCellClicked(clickedId)
