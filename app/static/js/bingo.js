@@ -1,7 +1,7 @@
 /*Functions for the bingo game*/
 
-const CHECKED_COLOR = "red";
-const UNCHECKED_COLOR = "white";
+var CHECKED_COLOR = "red";
+var UNCHECKED_COLOR = "white";
 
 function bingoCellClicked(clickedId)
 {
