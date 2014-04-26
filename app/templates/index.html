@@ -10,8 +10,9 @@
 				<table class="table table-bordered table-responsive">
 					{% for x in range(0, sideSize ) %}
 						<tr>
-						{% for y in range(0, sideSize ) %}
-							<td align="center" valign="middle">
+						{% for y in range(0, sideSize )	%}
+							{% set tdName = "cell{0}{1}".format(x,y) %}
+							<td align="center" valign="middle" name={{ tdName }}>
 								<button>{{ bingoSet.pop() }}</button>
 							</td>
 						{% endfor %}
