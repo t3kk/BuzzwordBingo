@@ -1,6 +1,13 @@
 /*Functions for the bingo game*/
 
-function bingoCellClicked(clicked_id)
+function bingoCellClicked(clickedId)
 {
-	alert(clicked_id);
+	if (document.getElementById(clickedId).style.backgroundColor!="red")
+	{
+		document.getElementById(clickedId).style.backgroundColor="red";
+	}
+	else
+	{
+		document.getElementById(clickedId).style.backgroundColor="white";
+	}
 }
