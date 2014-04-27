@@ -15,7 +15,7 @@
 						<tr>
 						{% for x in range( 0, sideSize ) %}
               {% set tdName = "cell:{0},{1}".format(x,y) %}
-							<td align="center" valign="middle" style= {{cellStyle}} id= {{ tdName }} onClick="bingoCellClicked(this.id)">
+							<td align="center" valign="middle" id= {{ tdName }} onClick="bingoCellClicked(this.id)">
 								{{ bingoSet.pop() }}
 							</td>
 						{% endfor %}
