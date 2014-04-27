@@ -37,11 +37,11 @@ function checkForWin(clickedId)
 	}
 	if(1 + checkVector(coords.x, coords.y, 1, 1) + checkVector(coords.x, coords.y, -1, -1)==rowSize)
 	{
-		alert("WIN! pos");
+		alert("WIN! negSlope");
 	}
 	if(1 + checkVector(coords.x, coords.y, 1, -1) + checkVector(coords.x, coords.y, -1, 1)==rowSize)
 	{
-		alert("WIN! neg");
+		alert("WIN! posSlope");
 	}
 }
 
