@@ -3,7 +3,7 @@
 
 var CHECKED_COLOR = 'rgb(100, 149, 237)';  /* Using rgb value for cornflowerblue to fix comparison.  Can we get the icon in cornflower blue https://www.youtube.com/watch?v=746j4dN1sQg */
 var UNCHECKED_COLOR = 'white';
-//TODO: set dynaically
+//TODO: set rowsize dynaically
 var rowSize = 5;
 
 function bingoCellClicked(clickedId)
@@ -27,7 +27,7 @@ function toggleColor(clickedId)
 function checkForWin(clickedId)
 {
 	var coords = extractCoordinates(clickedId);
-	if(1 + checkVector(coords.x, coords.y, 0, 1) + checkVector(coords.x, coords.y, 0, -1)==rowSize )
+	if(1 + checkVector(coords.x, coords.y, 0, 1) + checkVector(coords.x, coords.y, 0, -1)==rowSize)
 	{
 		alert("WIN! vert");
 	}
@@ -35,6 +35,8 @@ function checkForWin(clickedId)
 	{
 		alert("WIN! hor");
 	}
+	//This checks for a decending line in the table.  Coordinates x and y both increase though.
+	//This is because the cell ids are assigned top to bottom.
 	if(1 + checkVector(coords.x, coords.y, 1, 1) + checkVector(coords.x, coords.y, -1, -1)==rowSize)
 	{
 		alert("WIN! negSlope");
@@ -65,10 +67,10 @@ function extractCoordinates(clickedId)
 {
 	//Used txt2re.com to make this function cause its soo redicilously easy.  Please suggest improvements if you notice them.
 	var re1='.*?';	// Non-greedy match on filler
-    var re2='(\\d+)';	// Integer Number 1
-    var re3='.*?';	// Non-greedy match on filler
-    var re4='(\\d+)';	// Integer Number 2
-    var p = new RegExp(re1+re2+re3+re4,["i"]);
-    var m = p.exec(clickedId);
-    return {x:parseInt(m[1]), y:parseInt(m[2])}
+	var re2='(\\d+)';	// Integer Number 1
+  var re3='.*?';	// Non-greedy match on filler
+  var re4='(\\d+)';	// Integer Number 2
+  var p = new RegExp(re1+re2+re3+re4,["i"]);
+  var m = p.exec(clickedId);
+  return {x:parseInt(m[1]), y:parseInt(m[2])}
 }
