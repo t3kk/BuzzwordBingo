@@ -3,6 +3,8 @@
 
 var CHECKED_COLOR = 'rgb(100, 149, 237)';  /* Using rgb value for cornflowerblue to fix comparison.  Can we get the icon in cornflower blue https://www.youtube.com/watch?v=746j4dN1sQg */
 var UNCHECKED_COLOR = 'white';
+//TODO: set dynaically
+var rowSize = 5;
 
 function bingoCellClicked(clickedId)
 {
@@ -25,9 +27,21 @@ function toggleColor(clickedId)
 function checkForWin(clickedId)
 {
 	var coords = extractCoordinates(clickedId);
-	if (1 + checkVector(coords.x, coords.y, 0, 1) + checkVector(coords.x, coords.y, 0, -1) )
+	if(1 + checkVector(coords.x, coords.y, 0, 1) + checkVector(coords.x, coords.y, 0, -1)==rowSize )
 	{
-		alert(1 + checkVector(coords.x, coords.y, 0, 1) + checkVector(coords.x, coords.y, 0, -1) );
+		alert("WIN! vert");
+	}
+	if(1 + checkVector(coords.x, coords.y, 1, 0) + checkVector(coords.x, coords.y, -1, 0)==rowSize)
+	{
+		alert("WIN! hor");
+	}
+	if(1 + checkVector(coords.x, coords.y, 1, 1) + checkVector(coords.x, coords.y, -1, -1)==rowSize)
+	{
+		alert("WIN! pos");
+	}
+	if(1 + checkVector(coords.x, coords.y, 1, -1) + checkVector(coords.x, coords.y, -1, 1)==rowSize)
+	{
+		alert("WIN! neg");
 	}
 }
 
@@ -35,7 +49,6 @@ function checkVector(xCoord, yCoord, xDelta, yDelta)
 {
 	var nextCellId = 'cell:'+(xCoord+xDelta)+','+(yCoord+yDelta);
 	//If the next element exists and it is checked, we need to check the one after that
-	alert(nextCellId+" exists: "+document.getElementById(nextCellId));
 	if( document.getElementById(nextCellId) && document.getElementById(nextCellId).style.backgroundColor == CHECKED_COLOR)
 	{
 		return 1 + checkVector(xCoord+xDelta, yCoord+yDelta, xDelta, yDelta);
