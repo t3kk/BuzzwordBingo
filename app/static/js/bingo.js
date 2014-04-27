@@ -26,24 +26,23 @@ function toggleColor(clickedId)
 
 function checkForWin(clickedId)
 {
-	var coords = extractCoordinates(clickedId);
-	if(1 + checkVector(coords.x, coords.y, 0, 1) + checkVector(coords.x, coords.y, 0, -1)==rowSize)
+	//Only do a full check if the color is the 'checked' one
+	if(document.getElementById(clickedId).style.backgroundColor == CHECKED_COLOR)
 	{
-		alert("WIN! vert");
-	}
-	if(1 + checkVector(coords.x, coords.y, 1, 0) + checkVector(coords.x, coords.y, -1, 0)==rowSize)
-	{
-		alert("WIN! hor");
-	}
-	//This checks for a decending line in the table.  Coordinates x and y both increase though.
-	//This is because the cell ids are assigned top to bottom.
-	if(1 + checkVector(coords.x, coords.y, 1, 1) + checkVector(coords.x, coords.y, -1, -1)==rowSize)
-	{
-		alert("WIN! negSlope");
-	}
-	if(1 + checkVector(coords.x, coords.y, 1, -1) + checkVector(coords.x, coords.y, -1, 1)==rowSize)
-	{
-		alert("WIN! posSlope");
+		var coords = extractCoordinates(clickedId);
+		if
+		(
+			1 + checkVector(coords.x, coords.y, 0, 1) + checkVector(coords.x, coords.y, 0, -1)==rowSize
+			||
+			1 + checkVector(coords.x, coords.y, 1, 0) + checkVector(coords.x, coords.y, -1, 0)==rowSize
+			||
+			1 + checkVector(coords.x, coords.y, 1, 1) + checkVector(coords.x, coords.y, -1, -1)==rowSize
+			||
+			1 + checkVector(coords.x, coords.y, 1, -1) + checkVector(coords.x, coords.y, -1, 1)==rowSize
+		)
+		{
+			alert("WIN!");
+		}
 	}
 }
 
@@ -54,7 +53,6 @@ function checkVector(xCoord, yCoord, xDelta, yDelta)
 	if( document.getElementById(nextCellId) && document.getElementById(nextCellId).style.backgroundColor == CHECKED_COLOR)
 	{
 		return 1 + checkVector(xCoord+xDelta, yCoord+yDelta, xDelta, yDelta);
-
 	}
 	else
 	{
