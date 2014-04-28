@@ -11,7 +11,8 @@ setSize = 25
 @app.route('/')
 def home():
    return render_template('bingo.html',
-     bingoSet=parseTextFile.insertBlank( parseTextFile.getSetListFromFile('data/dictionary.txt', setSize) ))
+		phraseSet=parseTextFile.getSetListFromFile('data/buzzPhrases.txt', setSize)
+		bingoSet=parseTextFile.insertBlank( parseTextFile.getSetListFromFile('data/dictionary.txt', setSize) ))
 
 @app.route('/clarify', methods = ['GET', 'POST'])
 def clarify():

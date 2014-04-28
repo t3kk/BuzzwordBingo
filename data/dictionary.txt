@@ -1,8 +1,6 @@
-Agile
 Algorithm
 Alignment
 Analytics
-At the end of the day
 B2B
 Back-end
 Ballpark figure
@@ -18,19 +16,15 @@ BitCoin
 Bleeding edge
 Bonus
 Brand
-Break through the clutter
 Brick-and-mortar
-Bring to the table
-Bring your own Device
 Building Capabilities
 Business Process Outsourcing
 Business-to-Business
 Business-to-Consumer
 Calibrate Expectations
 Clear Goal
-Clickthrough
+Click-through
 Client-centric
-Close the loop
 Cloud
 Cloud Computing
 Collaboration
@@ -57,7 +51,6 @@ Diversity
 Document management
 Dot-bomb
 Downsizing
-Drinking the Kool-Aid
 E-Learning
 Education
 Empowerment
@@ -71,7 +64,6 @@ Event horizon
 Exit strategy
 Eyeballs
 Face time
-Folksonomy
 Fragile
 Framework
 Free value
@@ -98,7 +90,6 @@ Integrate
 Integrated Marketing Solution
 Internal Open Source
 Knowledge Process Outsourcing
-Knowledge Worker
 Leverage
 Logistics
 Long Tail
@@ -106,7 +97,7 @@ Low Hanging Fruit
 Management Visibility
 Mashup
 Mesh Network
-Millennial
+Milennial
 Milestone
 Mindshare
 Mission Critical
@@ -117,36 +108,32 @@ Nanotechnology
 Netiquette
 New economy
 Next generation
-Offshoring
+Off-shoring
 Organic growth
 Outside the Box
 Pain point
 Pandering
 Paradigm
-Podcasting
+Pod-casting
 Portal
 Private Cloud
 Proactive
 Productivity
-Push the envelope
 Quality
 Quick-win
-Reach out
 Real-time
 Relaying
 Responsive
 Return on Investment
 Reverse fulfilment
-Rightshoring
+Right-shoring
 Robust
 ROI
-Run like a business
 Scalability
 Science and technology
 Sensorization
 Serum
 Share options
-Shoot an E-Mail
 Sisterhood
 Skeuomorphic
 Social Bookmarking
@@ -162,23 +149,19 @@ Strategy
 Streamline
 Struts
 Student Engagement
-Sunk Cost
 Survival Strategy
 Sustainability
-Sync-up
 Synergy
 Systems Development Life-Cycle
 Tagging
 Teamwork
 Tee off
-Think Outside the Box
 Touch base
 Touchpoint
 Transmedia
-Time to Market (TTM)
+TTM
 User generated content
 Value-added
-Venture Capital
 Viral
 Virtualization
 Visibility
