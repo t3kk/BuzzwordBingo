@@ -12,7 +12,7 @@ def getListFromFile(file, size):
 
 def insertBlank(targetList):
   #change the middle element to free spac
-	targetList[len(targetList)/2] = 'Free Space'
+	targetList[len(targetList)/2] = 'Synergy'
 	return targetList
 
 
